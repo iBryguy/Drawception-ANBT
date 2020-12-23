@@ -1803,7 +1803,7 @@
       redo();
     } else if (event.keyCode === 'X'.charCodeAt(0)) {
       event.preventDefault();
-      const [color0, color1] = anbt.color;
+      const [color0, color1] = anbt.colors;
       setColor(0, color1);
       setColor(1, color0);
       updateColorIndicators();
